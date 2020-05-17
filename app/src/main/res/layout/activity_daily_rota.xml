@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#2E4053"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="top|center"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="cn.nurasoft.bkhatfield.DailyRotaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your rota"
+            android:id="@+id/view"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center|top"
+            android:gravity="center|top" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/img_mon"
+            />
+
+            <TextView
+                android:text="Monday"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:text="5-CLOSE"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:id="@+id/Monday"
+                android:textColor="#F80017" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/img_tue"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Tuesday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Tuesday"
+            android:textColor="#F80017" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/img_wed"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Wednesday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Wednesday"
+            android:textColor="#F80017" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/img_thur"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Thursday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Thursday"
+            android:textColor="#F80017" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/img_fri"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Friday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Friday"
+            android:textColor="#F80017" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            
+            android:id="@+id/img_sat"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Saturday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Saturday"
+            android:textColor="#F80017" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+           
+            android:id="@+id/img_sun"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Sunday"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="5-CLOSE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/Sunday"
+            android:textColor="#F80017" />
+
+    </LinearLayout>
+
+</LinearLayout>

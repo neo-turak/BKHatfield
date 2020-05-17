@@ -1,0 +1,203 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="#00bcd5"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly Schedule"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Monday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Tuesday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Wednesday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Thursday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Friday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Saturday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playball"
+            android:contentDescription="week details"
+            android:text="Sunday"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/rota_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="rota details"
+            android:text="Rota"
+            android:fontFamily="@font/geosanslight"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

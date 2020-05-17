@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="#00bcd5"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Schedule"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2">
+    <TextView
+        android:id="@+id/week_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/playball"
+        android:contentDescription="week details"
+        android:text="Week"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/rota_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="rota details"
+        android:text="Rota"
+        android:fontFamily="@font/playball"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
